@@ -18,7 +18,6 @@ myApp.filter('planetSorter',function(){
 	return function(input){
 		var temp = [];
 		temp.push(input[0]);
-		temp.push(input[2]);
 		return temp;
 	};
 });
