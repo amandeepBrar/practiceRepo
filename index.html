@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+		<script src="app.js"></script>
+	</head>
+
+
+	<body ng-app='prac_App'>
+		<div ng-controller="ctrl1">
+			<ul style="list-style:none;">
+				<li ng-repeat="planet in planets | planetSorter track by $index">{{planet}}</li>
+			</ul>
+		</div>
+	</body>
+</html>

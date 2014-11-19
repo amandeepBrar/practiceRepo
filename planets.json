@@ -1,0 +1,12 @@
+{
+    "planetsArray": [
+        "mercury",
+        "jupiter",
+        "venus",
+        "neptune",
+        "mars",
+        "uranus",
+        "earth",
+        "saturn"
+    ]
+}
